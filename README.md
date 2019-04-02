@@ -1,3 +1,7 @@
+Forked from [chongshengzhujue's project](https://github.com/chongshengzhujue/playableFBCompile)
+
+Compile successfully in cocos creator 2.0.9
+
 # 如何将creator项目打包成facebook playable game广告
 
 ## 1.导出web-mobile项目
@@ -26,4 +30,4 @@
 
 ***2.目前不知支持使用字体文件(ttf)***
 
-***3.本项目使用creator1.9.2打包***
+***3.本项目使用creator2.0.9打包***
