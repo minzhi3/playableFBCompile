@@ -153,7 +153,7 @@
             //height: height,
             id: 'GameCanvas',
             scenes: settings.scenes,
-            debugMode: settings.debug ? cc.DebugMode.INFO : cc.DebugMode.ERROR,
+            debugMode: settings.debug ? cc.debug.DebugMode.INFO : cc.debug.DebugMode.ERROR,
             showFPS: (!false && !false) && settings.debug,
             frameRate: 60,
             jsList: jsList,
@@ -260,7 +260,7 @@
                 context["decodeAudioData"](data.buffer, function(buffer){
                     //success
                     item.buffer = buffer;
-                    callback(null, item.id);
+                    callback(null, item.buffer);
                 }, function(){
                     //error
                     callback('decode error - ' + item.id, null);
